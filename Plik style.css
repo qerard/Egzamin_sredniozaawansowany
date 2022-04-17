@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(185, 185, 236, 0.724);
+  margin: 2em;
+}
+body h1 {
+  text-align: center;
+}
+body form {
+  padding: 1em;
+  display: flex;
+}
+body #rodzic {
+  background-color: rgb(195, 195, 226);
+  border: 0.25em solid rgb(115, 183, 212);
+  font-size: 1em;
+  border-radius: 0.7em;
+  padding: 1em;
+}
+body #dziecko1 {
+  float: left;
+  width: 50%;
+}
+body #dziecko2 {
+  float: right;
+  width: 50%;
+  text-align: end;
+}
+body .floatfix {
+  zoom: 1;
+}
+body .floatfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body .col-12 {
+  display: flex;
+  justify-content: end;
+}/*# sourceMappingURL=Plik style.css.map */
